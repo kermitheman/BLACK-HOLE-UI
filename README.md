@@ -6,7 +6,7 @@ This is an language intended for UI , as its made in the format of [HTML](https:
 
 I **strongly** advice to read the [**Manual**](/DOCS/Manual.md) for instruction & begginer guide.
 
-**Disclaimer!!** This is pasion project and for now as of Jan 21 2026 , isn't nowhere near finised or even addertised for use , any bugs(which I would strongly appreciate if you would tell me in the [issues](/issues) tab in the github)
+**Disclaimer!!** This is pasion project and for now as of Jan 21 2026 , isn't nowhere near finised or even addertised for use , any bugs(which I would strongly appreciate if you would tell me in the [issues](https://github.com/kermitheman/BLACK-HOLE-UI/issues) tab in the github)
 or not *fast enough* code isn't my concen , if you feel like the lib can have some
 improvements your free to make them yourself in the [provided code]() or suggest them in the [Github]()
 
