@@ -8,7 +8,7 @@ I **strongly** advice to read the [**Manual**](https://github.com/kermitheman/BL
 
 **Disclaimer!!** This is pasion project and for now as of Jan 21 2026 , isn't nowhere near finised or even addertised for use , any bugs(which I would strongly appreciate if you would tell me in the [issues](https://github.com/kermitheman/BLACK-HOLE-UI/issues) tab in the github)
 or not *fast enough* code isn't my concen , if you feel like the lib can have some
-improvements your free to make them yourself in the provided [code](https://github.com/kermitheman/BLACK-HOLE-UI) or suggest them in the [Github](https://github.com/kermitheman/BLACK-HOLE-UI)
+improvements your free to make them yourself in the [provided code](https://github.com/kermitheman/BLACK-HOLE-UI) or suggest them in the [Github](https://github.com/kermitheman/BLACK-HOLE-UI)
 
 
 ---
