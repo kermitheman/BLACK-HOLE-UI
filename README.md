@@ -1,6 +1,6 @@
 ![LOGO](/DOCS/BLHL_LOGO_NEW.png)  
   
-[BLACK HOLE UI(BLHL)](https://github.com/kermitheman/BLHL_UI) is a c++ library for use in the [OpenGl](https://www.opengl.org) or [Vulkan](https://www.vulkan.org) , and posibly in the future [DirectX12](https://en.wikipedia.org/wiki/DirectX).  
+[BLACK HOLE UI(BLHL)](https://github.com/kermitheman/BLHL_UI) is a c++ library for use in a [OpenGl](https://www.opengl.org) or [Vulkan](https://www.vulkan.org) , and posibly in the future [DirectX12](https://en.wikipedia.org/wiki/DirectX) project , also used in [my](https://github.com/kermitheman) engine.  
 
 This is an language intended for UI , as its made in the format of [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/CSS) & [JS](https://en.wikipedia.org/wiki/JavaScript)
 
