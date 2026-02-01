@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "debug-lib",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_BUILD_TYPE": "Debug",
+        "BLHL_BUILD_TESTS": "ON",
+        "BLHL_BUILD_LIB": "ON"
+      }
+    },
+    {
+      "name": "debug-no-lib",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_BUILD_TYPE": "Debug",
+        "BLHL_BUILD_TESTS": "ON",
+        "BLHL_BUILD_LIB": "OFF"
+      }
+    },
+    {
+      "name": "release-lib",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_BUILD_TYPE": "Release",
+        "BLHL_BUILD_TESTS": "OFF",
+        "BLHL_BUILD_LIB": "ON"
+      }
+    },
+    {
+      "name": "release-no-lib",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "CMAKE_BUILD_TYPE": "Release",
+        "BLHL_BUILD_TESTS": "OFF",
+        "BLHL_BUILD_LIB": "OFF"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "debug-lib",
+      "configurePreset": "debug-lib"
+    },
+    {
+      "name": "debug-no-lib",
+      "configurePreset": "debug-no-lib"
+    },
+    {
+      "name": "release-lib",
+      "configurePreset": "release-lib"
+    },
+    {
+      "name": "release-no-lib",
+      "configurePreset": "release-no-lib"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# -------------------------------
+# Build directories
+# -------------------------------
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeSettings.json
+*.cmake.user
+
+# -------------------------------
+# Dependency folders (FetchContent, submodules, etc.)
+# -------------------------------
+deps/
+_deps/
+third_party/
+extern/
+
+# -------------------------------
+# Local test / scratch files
+# -------------------------------
+test_build/
+sandbox/
+scratch/
+main.cpp
+test_main.cpp
+
+# -------------------------------
+# Compiled artifacts
+# -------------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+
+# -------------------------------
+# IDE / editor junk
+# -------------------------------
+.vs/
+.vscode/
+.idea/
+*.swp
+*.user
+*.log
+
+# -------------------------------
+# OS junk
+# -------------------------------
+.DS_Store
+Thumbs.db
